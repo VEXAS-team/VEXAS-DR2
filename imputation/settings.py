@@ -1,0 +1,18 @@
+import os
+
+EPOCHS = 150
+BATCH_SIZE = 256
+
+SEED = 100
+HIDDEN_DIM_FRACTION = 0.8
+DEPTH = 2
+LOGFILE = 'LogImputation.log'
+CHECKPOINT_PATH = os.makedirs('checkpoint/', exist_ok=True)
+
+SCALING_CONSTANT = 25
+TEST_SIZE = 0.15
+CHUNK_SIZE = 1000000
+MISSED_MAGS = -999
+
+N_QUANTILES = 10
+EPS = 1e-4
